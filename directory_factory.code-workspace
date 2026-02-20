@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../directory_factory"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}
