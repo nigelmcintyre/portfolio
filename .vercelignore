@@ -3,3 +3,4 @@ setup-server.sh
 nginx-portfolio.conf
 *.code-workspace
 README.md
+screenshots/
