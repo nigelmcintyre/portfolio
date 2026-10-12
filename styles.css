@@ -358,6 +358,10 @@ img {
   margin-left: 12px;
 }
 
+.footer-login {
+  margin-right: 12px;
+}
+
 @keyframes fadeUp {
   from {
     opacity: 0;
@@ -461,11 +465,38 @@ img {
   align-items: start;
 }
 
+.price-tiers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  align-items: stretch;
+  margin-bottom: 40px;
+}
+
 .price-card {
   background: var(--card);
   border-radius: var(--radius);
   padding: 32px;
   box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+}
+
+.price-card.featured {
+  outline: 2px solid var(--accent);
+}
+
+.price-card .price-list {
+  flex: 1;
+}
+
+.price-card > a {
+  align-self: flex-start;
+}
+
+.price-fit {
+  color: var(--ink-muted);
+  margin: -8px 0 20px;
 }
 
 .price-figure {
